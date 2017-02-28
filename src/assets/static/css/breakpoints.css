@@ -1,0 +1,18 @@
+/**
+ * Breakpoints
+ */
+:root {
+  --bp-xs:                        432px;
+  --bp-sm:                        535px;
+  --bp-md:                        767px;
+  --bp-lg:                        981px;
+  --bp-xl:                        1080px;
+  --max-width:                    1280px;
+}
+
+@custom-media --sm-viewport     (min-width:535px);
+@custom-media --max-sm-viewport (max-width:534px);
+@custom-media --md-viewport     (min-width:767px);
+@custom-media --max-md-viewport (max-width:766px);
+@custom-media --lg-viewport     (min-width:981px);
+@custom-media --max-lg-viewport (max-width:980px);
